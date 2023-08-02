@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <b onmouseover="headColorIn()" onmouseout="headColorOt()">Portfolio</b>
+
+        <div class="head">
+            <h1>Karumuri</h1>
+            <h1 id="siva" onmouseover="headColorIn()" onmouseout="headColorOt()">Mahesh</h1>
+            <h1>Babu</h1>
+        </div>
+
+        <line onmouseover="headColorIn()" onmouseout="headColorOt()"></line>
+
+        <div class="info">
+            <h1>Developer</h1>
+            <section><h2>My-Info</h2><span></span><h3><a href="./html/info.html">View</a></h3></section>
+        </div>
+
+        <div class="contact">
+            <a href="tel:91 9390336767" target="_blank">
+            <img src="./assests/images/call.png" onmouseover="funFstCall()" onmouseout="funSnd()" alt="Call" id="call"></a>
+
+            <a href="mailto:maheshbabuk9390@gmail.com" target="_blank">
+            <img src="./assests/images/mail.png" onmouseover="funFstMail()" onmouseout="funSnd()" alt="Mail"></a>
+
+            <a href="https://wa.me/919390336767">
+            <img src="./assests/images/wtpp.png" onmouseover="funFstWtpp()" onmouseout="funSnd()" alt="WhatsApp"></a>
+
+            <a href="https://instagram.com/sk.vdd?igshid=ZDdkNTZiNTM=" target="_blank">
+            <img src="./assests/images/ingm.png" onmouseover="funFstIngm()" onmouseout="funSnd()" alt="Instagram"></a>
+
+            <a href="https://www.facebook.com/profile.php?id=100069249877208&mibextid=ZbWKwL" target="_blank">
+            <img src="./assests/images/fsbk.png" onmouseover="funFstFsbk()" onmouseout="funSnd()" alt="Facebook"></a>
+        </div>
+    </div>
+
+    <div class="viewdata">
+        <h1>Portfolio</h1>
+        <input type="button" value="View CV" onclick="cvView()">
+        <p>Check in below Page</p>
+        <div class="resumeView">
+            <section id="cvClose" onclick="cvUiew()">X</section>
+            <section id="cvPlace">
+                <embed src="./assests/images/Maheshf.pdf">
+            </section>
+        </div>
+    </div>
+</body>
+</html>

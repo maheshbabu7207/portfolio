@@ -1,0 +1,243 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="../css/info.css">
+    <script src="../js/info.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <button id="menu" onclick="menu()" value="open"></button>
+        <nav class="navi">
+            <button><a href="../index.html">Home</a></button>
+            <button id="aboutUs" onclick="aboutUs()">About-Us</button>  
+            <button id="educate" onclick="educate()">Education</button> 
+            <button id="skillss" onclick="skillss()">Skills</button>    
+            <button id="experin" onclick="experin()">Experience</button>
+            <button id="project" onclick="project()">Project</button> 
+        </nav>
+        <h1>Portfolio</h1>
+        <div class="infoContainer">
+            <!-- about Information -->
+            <div class="aboutContainer" id="aboutContainer">
+                <div class="aboutTextinfo">
+                    <section>
+                        <h1>About-Us</h1>
+                        <p>
+                            I'm a fresher and I'm good in programming. I'm ready to join a job.
+                            My hobbies are Listening Music and Playing Games. My goals are to get a job in reputed company and to achieve a good 
+                            position where I can  build my carrier and help to organization  too. 
+                            Lastly, I am a quick learner and believe in learning from my past mistakes and experiences.  
+                            That's all about me.
+                        </p>
+                        <h3>Thanks…</h3>
+                    </section>
+                </div>
+                <div class="aboutProfiles">
+                    <section>
+                        <h2>MAHESH BABU</h2>
+                        <h3>Developer</h3>
+                        <img src="../assests/images/Mpic.jpg">
+                    </section>
+                </div>
+            </div>
+            <!-- education Informatin -->
+            <div class="educateContainer" id="educateContainer">
+                <h1>Education</h1>
+                <div class="educatInfo">
+                    <div>
+                        <section>
+                            <h2>MSC</h2>
+                            <table id="msc">
+                                <tr><td>Percentage</td><td> :</td><td> 75%</td></tr>
+                                <tr><td>Passed    </td><td> :</td><td> 2022</td></tr>
+                                <tr><td>Stream    </td><td> :</td><td> COMPUTER SCIENCE</td></tr>
+                                <tr><td>College   </td><td> :</td><td> S.P.D C JMD</td></tr>
+                            </table>
+                        </section>
+                    </div>
+                    <div>
+                        <section>
+                            <h2>B.COM</h2>
+                            <table id="bcom">
+                                <tr><td>Percentage</td><td> :</td><td> 66%</td></tr>
+                                <tr><td>Passed    </td><td> :</td><td> 2016</td></tr>
+                                <tr><td>Stream    </td><td> :</td><td> COMPUTER APP</td></tr>
+                                <tr><td>College   </td><td> :</td><td> S.P.D COLLEGE JMD</td></tr>
+                            </table>
+                        </section>
+                    </div>
+                    <div>
+                        <section>
+                            <h2>INTER</h2>
+                            <table id="inter">
+                                <tr><td>Percentage</td><td> :</td><td> 56%</td></tr>
+                                <tr><td>Passed    </td><td> :</td><td> 2013</td></tr>
+                                <tr><td>Stream    </td><td> :</td><td> CEC</td></tr>
+                                <tr><td>College   </td><td> :</td><td> GOVT.JR COLLEGE</td></tr>
+                            </table>
+                        </section>
+                    </div>
+                    <div>
+                        <section>
+                            <h2>SSC</h2>
+                            <table id="ssc">
+                                <tr><td>Percentage</td><td> :</td><td> 66%</td></tr>
+                                <tr><td>Passed    </td><td> :</td><td> 2011</td></tr>
+                                <tr><td>Stream    </td><td> :</td><td> TELUGU</td></tr>
+                                <tr><td>School    </td><td> :</td><td> GOVT.HIGH SCHOOL</td></tr>
+                            </table>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <!-- skills Information -->
+            <div class="skillsContainer" id="skillsContainer">
+                <div class="paraSkills">
+                    <h1>Skills</h1>
+                    <p>
+                        I worked on few projects on Frontend by using Web Technology(HTML, CSS and JavaScript). And also, I known the how to use programming. I was taken coaching on my skills.
+                    </p>
+                </div>
+                <div class="allSkills">
+                    <div class="skillsLogos">
+                        <section onmouseover="widowCodeJPV()" onmouseout="widowCodeJPU()"><span><img src="../assests/images/Java.png"></span></section>
+                        <section onmouseover="widowCodeSQV()" onmouseout="widowCodeSQU()"><span><img src="../assests/images/SQL.png"></span></section>
+                        <section onmouseover="widowCodeHTV()" onmouseout="widowCodeHTU()"><span><img src="../assests/images/HTML.png"></span></section>
+                        <section onmouseover="widowCodeCSV()" onmouseout="widowCodeCSU()"><span><img src="../assests/images/CSS.png"></span></section>
+                        <section onmouseover="widowCodeJSV()" onmouseout="widowCodeJSU()"><span><img src="../assests/images/JS.png" id="js"></span></section>
+                    </div>
+                    <div class="viewSkills" id="viewSkillsJP">
+                        <line></line>
+                        <circle></circle>
+                        <span>CoreJava</span>
+                    </div>
+                    <div class="viewSkills" id="viewSkillsSQ">
+                        <span>SQL</span>
+                        <circle></circle>             
+                        <line></line>
+                    </div>
+                    <div class="viewSkills" id="viewSkillsHT">
+                        <line></line>
+                        <circle></circle>
+                        <span>HTML</span>
+                    </div>
+                    <div class="viewSkills" id="viewSkillsCS">
+                        <span>CSS</span> 
+                        <circle></circle>             
+                        <line></line>
+                    </div>
+                    <div class="viewSkills" id="viewSkillsJS">
+                        <line></line>
+                        <circle></circle>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="widowCode" id="widowCodeJP">
+                    <span>&nbsp&nbsp&nbsp&nbsp</span>
+                    <span>&nbsp&nbsp&nbsp&nbsp</span>
+                    <span>&nbsp&nbsp&nbsp&nbsp</span>
+                    <line></line>
+                    <p>
+                        1 &nbsp <cb>import</cb> java.util.<cr>Scanner</cr>;<br>
+                        2 &nbsp class Portfolio<br>
+                        3 &nbsp {<br>
+                        4 &nbsp &nbsp &nbsp <cb>public static void</cb> main(String[] args)<br>
+                        5 &nbsp &nbsp &nbsp {<br>
+                        6 &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp <cr>System</cr>.out.println(<cp>"Portfolio"</cp>);<br>
+                        7 &nbsp &nbsp &nbsp }<br>
+                        8 &nbsp }<br>
+                    </p>
+                </div>
+                <div class="widowCode" id="widowCodeSQ">
+                    <span>&nbsp&nbsp&nbsp&nbsp</span>
+                    <span>&nbsp&nbsp&nbsp&nbsp</span>
+                    <span>&nbsp&nbsp&nbsp&nbsp</span>
+                    <line></line>
+                    <p>
+                        sql > &nbsp create table Portfolio<br>
+                        &nbsp &nbsp &nbsp 2 &nbsp (<br>
+                        &nbsp &nbsp &nbsp 3 &nbsp &nbsp &nbsp skills varchar(6) not null,<br>
+                        &nbsp &nbsp &nbsp 4 &nbsp &nbsp &nbsp experiance number(2) null,<br>
+                        &nbsp &nbsp &nbsp 5 &nbsp &nbsp &nbsp projects varchar(6) not null,<br>
+                        &nbsp &nbsp &nbsp 6 &nbsp &nbsp &nbsp education varchar(6) not null<br>
+                        &nbsp &nbsp &nbsp 7 &nbsp ) ;<br>
+                    </p>
+                </div>
+                <div class="widowCode" id="widowCodeHT">
+                    <span>&nbsp&nbsp&nbsp&nbsp</span>
+                    <span>&nbsp&nbsp&nbsp&nbsp</span>
+                    <span>&nbsp&nbsp&nbsp&nbsp</span>
+                    <line></line>
+                    <p>
+                        1 &nbsp <cg>&lt</cg> <cb>html</cb> <cg>&gt</cg><br>
+                        2 &nbsp &nbsp &nbsp <cg>&lt</cg> <cb>head</cb> <cg>&gt</cg><br>
+                        3 &nbsp &nbsp &nbsp &nbsp &nbsp <cg>&lt</cg> <cb>title</cb> <cg>&gt</cg> Portfolio <cg>&lt</cg> <cb>/title</cb> <cg>&gt</cg><br>
+                        4 &nbsp &nbsp &nbsp <cg>&lt</cg> <cb>/head</cb> <cg>&gt</cg><br>
+                        5 &nbsp &nbsp &nbsp <cg>&lt</cg> <cb>body</cb> <cg>&gt</cg><br>
+                        6 &nbsp &nbsp &nbsp &nbsp &nbsp <cg>&lt</cg> <cb>h1</cb> <cg>&gt</cg> Skills <cg>&lt</cg> <cb>/h1</cb> <cg>&gt</cg><br>
+                        7 &nbsp &nbsp &nbsp &nbsp &nbsp <cg>&lt</cg> <cb>h2</cb> <cg>&gt</cg> Projects <cg>&lt</cg> <cb>/h2</cb> <cg>&gt</cg><br>
+                        8 &nbsp &nbsp &nbsp &nbsp &nbsp <cg>&lt</cg> <cb>h3</cb> <cg>&gt</cg> Education <cg>&lt</cg> <cb>/h3</cb> <cg>&gt</cg><br>
+                        9 &nbsp &nbsp &nbsp <cg>&lt</cg> <cb>/body</cb> <cg>&gt</cg><br>
+                        10 <cg>&lt</cg> <cb>/html</cb> <cg>&gt</cg><br>
+                    </p>
+                </div>
+                <div class="widowCode" id="widowCodeCS">
+                    <span>&nbsp&nbsp&nbsp&nbsp</span>
+                    <span>&nbsp&nbsp&nbsp&nbsp</span>
+                    <span>&nbsp&nbsp&nbsp&nbsp</span>
+                    <line></line>
+                    <p>
+                        1 &nbsp &nbsp<cb>*</cb><cy>::selection</cy><br>
+                        2 &nbsp &nbsp<cy>{</cy><br>
+                        3 &nbsp &nbsp &nbsp &nbsp <cb>color</cb>: <co>white</co>;<br>
+                        4 &nbsp &nbsp &nbsp &nbsp <cb>background</cb>: <co>rgb</co><cp>(</cp><cn>191, 0, 92</cn><cp>)</cp>;<br>
+                        5 &nbsp &nbsp<cy>}</cy><br>
+                        6 &nbsp &nbsp<cy>body</cy><br>
+                        7 &nbsp &nbsp<cy>{</cy><br>
+                        8 &nbsp &nbsp &nbsp &nbsp <cb>display</cb>: <co>flex</co>;<br>
+                        9 &nbsp &nbsp &nbsp &nbsp <cb>justify-content</cb>: <co>center</co>;<br>
+                        10 &nbsp &nbsp &nbsp <cb>align-items</cb>: <co>center</co>;<br>
+                        11 &nbsp &nbsp &nbsp <cb>flex-direction</cb>: <co>column</co>;<br>
+                        12 &nbsp <cy>}</cy><br>
+                    </p>
+                </div>
+                <div class="widowCode" id="widowCodeJS">
+                    <span>&nbsp&nbsp&nbsp&nbsp</span>
+                    <span>&nbsp&nbsp&nbsp&nbsp</span>
+                    <span>&nbsp&nbsp&nbsp&nbsp</span>
+                    <line></line>
+                    <p>
+                        1 &nbsp <cb>var num</cb> = <cn>123</cn>;<br>
+                        2 &nbsp <cb>console</cb>.<cy>log(<cb>num</cb>)</cy>;<br>
+                        3 &nbsp <cb>function</cb> <cy>fun()</cy><br>
+                        4 &nbsp <cy>{</cy><br>
+                        5 &nbsp     <cb>window</cb>.<cy>alert(<co>'Portfolio'</co>)</cy>;<br>
+                        6 &nbsp <cy>}</cy><br>
+                        7 &nbsp <cy>fun()</cy>;
+                    </p>
+                </div>
+            </div>
+            <!-- experiance Container -->
+            <div class="experienceContainer" id="experienceContainer">
+                <div id="textShadow">
+                    <h1>Hire Me</h1>
+                </div>
+                <div id="letters" onmouseover="textShadowV()" onmouseout="textShadowU()">
+                    <section>
+                        <h1>I'm Fresher</h1>
+                    </section>
+                </div>
+            </div>
+            <!-- project Container -->
+            <div class="projectContainer" id="projectContainer">
+                <h1>Projects</h1>
+                <div id="calcu"><img src="../assests/images/calcuW.png"><span></span><h3>Calculator</h3></div>
+                <div id="music"><img src="../assests/images/musicW.png"><span></span><h3>MusicPlay</h3></div>
+                <div id="photo"><img src="../assests/images/photoW.png"><span></span><h3>PhotoSlide</h3></div>
+                <div id="game"><img src="../assests/images/gamejW.png"><span></span><h3>Game</h3></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

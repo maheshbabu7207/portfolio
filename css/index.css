@@ -1,0 +1,420 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+*::selection
+{
+    color: white;
+    background: #fc0987;
+}
+.main
+{
+    width: 100%;
+    height: 94vh;
+    background: rgb(18, 18, 18);
+    background-size: 100%;
+    background-blend-mode:soft-light;
+    margin-bottom: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main b
+{
+    color: #fc0987;
+    font-size: 2em;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: 13.1vh;
+    right: 5vw;
+    cursor: default;
+}
+.main .head
+{
+    width: 25%;
+    height: 10vw;
+    position: absolute;
+    top: 6vh;
+    left: 5vw;
+}
+
+.head h1
+{
+    width: 60%;
+    color: #fc0987;
+    font-size: 2.3em;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;  
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    /* background:rgb(251, 255, 0); */
+    cursor: default;
+}
+.head h1:nth-child(1)
+{
+    font-size: 1.5em;
+    letter-spacing: 0.65em;
+}
+.head h1:nth-child(2)
+{
+    color: white;
+    font-size: 4em;
+}
+.head h1:nth-child(3)
+{
+    font-size: 1.5em;
+    letter-spacing: 0.9em;
+}
+line
+{
+    width: 69%;
+    height: 0.5vh;
+    background: linear-gradient(90deg, white, #fc0987);
+    position: absolute;
+    top: 15.3vh;
+    left: 15vw;
+}
+
+.info
+{
+    color: #fc0987;
+    width: 60%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 4vh;
+}
+.info h1
+{
+    width: 90%;
+    font-size: 8rem;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    background: linear-gradient(45deg, #0ce39a, #69007f, #fc0987);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.info section
+{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    cursor:default;
+    margin-right: -6vw;
+
+}
+.info section h2
+{
+    width: 60%;
+    font-size: 1.3em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    letter-spacing: 0.2em;
+}
+.info section:hover h2
+{
+    color: white;
+}
+.info section a
+{
+    color: white;
+    text-decoration-line: none;
+}
+.info section a:active
+{
+    color:#fc0987;
+}
+.info section h3
+{
+    width: 20%;
+    height: 2%;
+    font-size: 0em;
+    font-family: monospace;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.info section span
+{
+    width: 0%;
+    height: 100%;
+    background: #fc0987;
+    transition: 0.4s;
+}
+.info section:hover h3
+{
+    width: 20%;
+    height: 2%;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    font-weight: lighter;
+    font-family: monospace;
+}
+.info section:hover span
+{
+    width: 1%;
+    height: 100%;
+    background: white;
+}
+
+.contact
+{
+    width: 24%;
+    height: 6%;
+    border-radius: 1em;
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+    box-shadow: 0em 0em 1em rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.06);
+    position: relative;
+    top: 28vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact a
+{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact img
+{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact img:hover
+{
+    transform: scale(1.2) rotateZ(360deg);
+}
+
+.viewdata
+{
+    width: 100%;
+    height: 90%;
+    background: url("../assests/images/backgroundHome.png"), linear-gradient(45deg, #0ce39a, #69007f, #fc0987);
+    /* background: url("../assests/images/backgroundHome.png"), rgb(191, 0, 92); */
+    background-size: 100%;
+    background-blend-mode: soft-light;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.viewdata h1
+{
+    color: rgb(18, 18, 18);
+    font-size: 2em;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    text-shadow: 0px 0px 4px rgba(107, 0, 52, 0.5);
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: 5vh;
+    left: 2vw;
+    transition: 10s;
+    cursor: default;
+}
+.viewdata h1:hover
+{
+    font-size: 0em;
+}
+.viewdata input
+{
+    width: 12%;
+    height: 6%;
+    color: #fc0987;
+    font-size: 1em;
+    border-radius: 0.3em;
+    border-width: 0px;
+    box-shadow: 0px 0px 10px rgba(107, 0, 52, 0.5);
+    background: rgb(18, 18, 18);
+    cursor: pointer;
+}
+.viewdata input:hover
+{
+    color: rgb(18, 18, 18);
+    background: #fc0987;
+}
+.viewdata input:active
+{
+    color: white;
+}
+.viewdata p
+{
+    color: white;
+    position: absolute;
+    display:none;
+}
+.viewdata .resumeView
+{
+    width: 64%;
+    height: 90vh;
+    position: absolute;
+    top: 0vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+.resumeView #cvClose
+{
+    width: 5%;
+    height: 5vh;
+    color: #fc0987;
+    font-size: 1.5em;
+    font-family: monospace;
+    border-radius: 1em;
+    box-shadow: 0em 0em 0.5em rgba(0, 0, 0, 0.596);
+    background:rgb(18, 18, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.resumeView #cvPlace
+{
+    width: 100%;
+    height: 80vh;
+    border-radius: 0.5em;
+    box-shadow: 0em 0em 1.5em rgba(0, 0, 0, 0.233);
+    /* background: rgba(255, 255, 255, 0.05); */
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resumeView #cvPlace embed
+{
+    width: 96%;
+    height: 75vh;
+    border-radius: 0.5em;
+}
+@media screen and (max-width: 600px)
+{
+    .main
+    {
+        width: 100%;
+        height: 90vh;
+        margin-bottom: 0vh;
+    }
+    .main b
+    {
+        font-size: 2em;
+        letter-spacing: 0.1em;
+        top: 15.6vh;
+        right: 5vw;
+    }
+    .main .head
+    {
+        width: 25%;
+        height: 10vw;
+        position: absolute;
+        top: 12vh;
+        left: 10vw;
+    }
+    .head h1:nth-child(1)
+    {
+        font-size: 1em;
+    }
+    .head h1:nth-child(2)
+    {
+        font-size: 2.8em;
+    }
+    .head h1:nth-child(3)
+    {
+        font-size: 1em;
+    }
+    line
+    {
+        width: 16vw;
+        height: 0.3vh;
+        top: 17.7vh;
+        left: 38.8vw;
+    }
+    .info
+    {
+        width: 90%;
+        top: 4vh;
+    }
+    .info h1
+    {
+        font-size: 3em;
+    }
+    .info section
+    {
+        width: 50%;
+        margin-right: 0vw;
+    }
+    .info section span
+    {
+        width: 1%;
+    }
+    .info section h3
+    {
+        font-size: 1.2em;   
+    }
+    .viewdata
+    {
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(45deg, #0ce39a, #69007f, #fc0987);
+    }
+    .viewdata h1
+    {
+        display: none;
+    }
+    .viewdata input
+    {
+        width: 30%;
+        height: 5vh;
+        font-weight: bolder;
+        background: white;
+        position: absolute;
+        top: -20vh;
+    }
+    .contact
+    {
+        width: 80%;
+        height: 6%;
+        background: rgba(0, 0, 0, 0.8);
+        position: relative;
+        top: 36vh;
+        z-index: 3;
+    }
+    .viewdata .resumeView
+    {
+        width: 100%;
+        height: 85vh;
+        top: 10vh;
+    }
+    .resumeView #cvClose
+    {
+        width: 12%;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .resumeView #cvPlace
+    {
+        width: 90%;
+        height: 80vh;
+        background: rgba(255, 255, 255, 0.26);
+    }
+    .viewdata p
+    {
+        top: -14vh;
+        font-size: 0.8em;
+        font-family:'Courier New', Courier, monospace;
+    }
+    .viewdata+input:active p
+    {
+        display: flex;
+    }
+}
